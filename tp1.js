@@ -1,5 +1,5 @@
-// Valentin Sebastian Yuge 92715/7 TP3 Comision 3
-// 
+// Valentin Sebastian Yuge 92715/7 TP1 pmiw Comision 3
+// https://youtu.be/lKXykCrXRu8
 
 let img;
 let color1, color2
@@ -18,16 +18,4 @@ function draw() {
   background(255);
   dibujo(10,10);
   image(img, 0, 0, 400, 400);
-}
-
-function mousePressed(){
-  color1 = color(random(255), random(255), random(255));
-  color2 = color(random(255), random(255), random(255));
-}
-
-function keyPressed(){
-  if (key == 'r' || key == 'R') {
-    color1 = color(0); // negro
-    color2 = color(255); // blanco
-  }
 }

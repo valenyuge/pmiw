@@ -11,3 +11,15 @@ function dibujo(cantX, cantY) {
     }
   }
 }
+
+function mousePressed(){
+  color1 = color(random(255), random(255), random(255));
+  color2 = color(random(255), random(255), random(255));
+}
+
+function keyPressed(){
+  if (key == 'r' || key == 'R') {
+    color1 = color(0); // negro
+    color2 = color(255); // blanco
+  }
+}
