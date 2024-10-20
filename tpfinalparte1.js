@@ -1,4 +1,4 @@
-// Valentin Yuge 92715/7 
+// Valentin Yuge 92715/7 https://youtu.be/u-D9bNXjl3U
 
 let img = []; 
 let pantallas = [];
@@ -12,8 +12,8 @@ let Pausa, Play;
 function preload() {
   Play = loadImage('data/play.png');
   Pausa = loadImage('data/pausa.png');
+  musica = loadSound('data/shrek.mp3');
   for (let i = 0; i < 20; i++) {
-    musica = loadSound('data/shrek.mp3');
     img[i] = loadImage('data/img' + i + '.jpg');
   }
 }
