@@ -1,4 +1,4 @@
-//Valentin Yuge 92715/7
+//Valentin Yuge 92715/7 https://youtu.be/NgJPPq7LmOk
 
 let player;
 let Suelo;
@@ -27,8 +27,8 @@ let Suena = true;
 let Pausa, Play;
 let frameFlechas = 0;
 let frameObstaculos = 0;
-let intervaloFlechas = 250;
-let intervaloObstaculos = 140;
+let intervaloFlechas = 270;
+let intervaloObstaculos = 190;
 
 function preload() {
   ImagenParado = loadImage('data/ShrekCorriendo.png'); 
